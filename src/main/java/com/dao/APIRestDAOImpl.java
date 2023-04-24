@@ -104,7 +104,7 @@ public class APIRestDAOImpl implements APIRestDAO{
 		
 //	    {
 //        "codeCommune": "01002",
-//        "libelle_acheminement": "RIVES DU LOIRE EN ANJOU",
+//        "libelleAcheminement": "RIVES DU LOIRE EN ANJOU",
 //        "codePostal": "19150",
 //        "nomCommune": "RIVES DU LOIRE EN ANJOU",
 //        "latitude": 65.9756078125,
@@ -115,7 +115,7 @@ public class APIRestDAOImpl implements APIRestDAO{
 	    // construction de l'objet JSON pour la requête de mise à jour
 	    JSONObject villeJSON = new JSONObject();
 	    villeJSON.put("codeCommune", codeCommune);
-	    villeJSON.put("libelle_acheminement", ville.getLibelle_acheminement());
+	    villeJSON.put("libelleAcheminement", ville.getLibelleAcheminement());
 	    villeJSON.put("codePostal", codePostal);
 	    villeJSON.put("nomCommune", nomCommune);
 	    villeJSON.put("latitude", latitude);

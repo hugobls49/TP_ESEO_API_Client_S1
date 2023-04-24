@@ -3,15 +3,12 @@ package com.beans;
 public class Ville {
 	
 	private String codeCommune;
-	private String libelle_acheminement;
-	private String Ligne5;
-	private Double Latitude;
-	private Double Longitude;
+	private String libelleAcheminement;
+	private String ligne5;
+	private Double latitude;
+	private Double longitude;
 	private String codePostal;
 	private String nomCommune;
-	
-	public Ville() {
-	}
 
 	public String getCodePostal() {
 		return codePostal;
@@ -37,36 +34,36 @@ public class Ville {
 		this.codeCommune = codeCommune;
 	}
 
-	public String getLibelle_acheminement() {
-		return libelle_acheminement;
+	public String getLibelleAcheminement() {
+		return this.libelleAcheminement;
 	}
 
-	public void setLibelle_acheminement(String libelle_acheminement) {
-		this.libelle_acheminement = libelle_acheminement;
+	public void setLibelleAcheminement(String libelleAcheminement) {
+		this.libelleAcheminement = libelleAcheminement;
 	}
 
 	public String getLigne5() {
-		return Ligne5;
+		return this.ligne5;
 	}
 
 	public void setLigne5(String ligne5) {
-		Ligne5 = ligne5;
+		this.ligne5 = ligne5;
 	}
 
 	public Double getLatitude() {
-		return Latitude;
+		return this.latitude;
 	}
 
 	public void setLatitude(Double latitude) {
-		Latitude = latitude;
+		this.latitude = latitude;
 	}
 
 	public Double getLongitude() {
-		return Longitude;
+		return this.longitude;
 	}
 
 	public void setLongitude(Double longitude) {
-		Longitude = longitude;
+		this.longitude = longitude;
 	}
 	
 }
